@@ -1,0 +1,29 @@
+~ Unscramble Computer Science Problems Run Time Analysis ~
+
+1. Task0.py Big O(1), constant time operation independent if the data set becomes larger.
+    a.One lookup for the first print statement O(1).
+    b.One lookup for the second print statement O(1).
+    Total = O(1) + O(1) --> O(1)
+2. Task1.py Big O(n), implemented two for loops and as we iterate we add values to a set.
+    a.First for loop O(n) iterating through all the inputs a single time.
+    b.Second for loop O(n) iterating through all the inputs a single time.
+    c.Adding values to the set O(1)
+    Total = O(n) + O(n) + O(1) --> O(n)
+3. Task2.py Big O(n), building the dicitionary iterating through all the inputs one single time.
+    a.Looping through all the inputs one single time O(n)
+    b.Adding key, value pairs to dictionary O(1)
+    c.Extracting maximum value from disctionary using Python max() function O(n)
+    d.Iterating through dictionary to find key with a certain value O(n)
+    Total = O(n) + O(1) + O(n) + O(n) --> O(n)
+4. Task3.py Big O(nlogn), runs through call data inputs a single time, than sorting the inputs using Python sorted() function.
+    a.One for loop O(n) iterating through all the inputs a single time.
+    b.Adding values to the set O(1)
+    c.Sorting inputs through Python sorted() prebuild Timesort function O(nlogn)
+    d.Calculating percentage rounding to two decimal digits O(1)
+    Total = O(n) + O(1) + O(nlogn) + O(1) --> O(nlogn)
+5. Task4.py Big O(nlogn), implemented one for loop iterating through all the inputs one single time, than sorting the inputs using Python sorted() function.
+    a.First for loop O(n) iterating through all the inputs a single time.
+    b.Second for loop O(n) iterating through all the inputs a single time.
+    c.Adding values to the set O(1)
+    d.Sorting inputs through Python sorted() prebuild Timesort function O(nlogn)
+    Total = O(n) + O(n) + O(1) + O(nlogn) --> O(nlogn)
