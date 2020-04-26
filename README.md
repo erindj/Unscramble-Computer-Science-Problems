@@ -1,19 +1,19 @@
-<b>Investigating Texts and Calls</b>
+#<b>Investigating Texts and Calls</b>
 
 In this project, you will complete five tasks based on a fabricated set of calls and texts exchanged during September 2016. You will use Python to analyze and answer questions about the texts and calls contained in the dataset. Lastly, you will perform run time analysis of your solution and determine its efficiency.
-What will I learn?
 
-<b>In this project, you will:</b>
+##<b>What will I learn?</b>
+In this project, you will:
 
-    Apply your Python knowledge to breakdown problems into their inputs and outputs.
-    Perform an efficiency analysis of your solution.
-    Warm up your Python skills for the course.
+    *Apply your Python knowledge to breakdown problems into their inputs and outputs.
+    *Perform an efficiency analysis of your solution.
+    *Warm up your Python skills for the course.
 
-<b>Why this Project?</b>
+##<b>Why this Project?</b>
 
 You'll apply the skills you've learned so far in a more realistic scenario. The five tasks are structured to give you experience with a variety of programming problems. You will receive code review of your work; this personal feedback will help you to improve your solutions.
 
-<b>Step 1 - Download the Files</b>
+##<b>Step 1 - Download the Files</b>
 
 Download and open the zipped folder here. In the folder you will find five python files `Task0.py`, `Task1.py`, ...,`Task4.py` and two csv files `calls.csv` and `texts.csv`
 About the data
@@ -30,7 +30,7 @@ All telephone numbers are 10 or 11 numerical digits long. Each telephone number 
     Mobile numbers have no parentheses, but have a space in the middle of the number to help readability. The mobile code of a mobile number is its first four digits and they always start with 7, 8 or 9. Example: "93412 66159".
     Telemarketers' numbers have no parentheses or space, but start with the code 140. Example: "1402316533".
 
-<b>Step 2 - Implement the Code</b>
+##<b>Step 2 - Implement the Code</b>
 
 Complete the five tasks (`Task0.py`, `Task1.py`, ...,`Task4.py`). Do not change the data or instructions, simply add your code below what has been provided. Include all the code that you need for each task in that file.
 
@@ -41,10 +41,10 @@ In Tasks 3 and 4, you can use in-built methods `sorted()` or `list.sort()` for s
 
 The solution outputs for each file should be the print statements described in the instructions. Feel free to use other print statements during the development process, but remember to remove them for submission - the submitted files should print only the solution outputs.
 
-<b>Step 3 - Calculate Big O</b>
+##<b>Step 3 - Calculate Big O</b>
 
 Once you have completed your solution for each problem, perform a run time analysis (Worst Case Big-O Notation) of your solution. Document this for each problem and include this in your submission.
 
-<b>Step 4 - Check again Rubric and Submit</b>
+##<b>Step 4 - Check again Rubric and Submit</b>
 
 Use the rubric to check your work before submission. A Udacity Reviewer will give feedback on your work based on this rubric and will leave helpful comments on your code. 
