@@ -69,7 +69,7 @@ for numbers in calls:
               mobile_numbers = numbers[1]
               prefixes_for_mobile_numbers = mobile_numbers[0:4]
               prefixes_of_calles_by_Bangalore.add(prefixes_for_mobile_numbers)
-        #Adding prefixes of telemarketers to the set, which not relevant 
+        #Adding prefixes of telemarketers to the set, which is not relevant for our problem
         if '140' in numbers[1][0:3]:
               telemarketers_numbers = numbers[1]
               prefixes_telemarkters = telemarketers_numbers[0:3]
