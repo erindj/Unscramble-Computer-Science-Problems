@@ -29,10 +29,10 @@ for numbers in calls:
 
     if caller not in phone_calls_duration.keys():
         phone_calls_duration[caller] = duration
-    
     else:
         phone_calls_duration[caller] += duration
        
+    
     if reciever not in phone_calls_duration.keys():
         phone_calls_duration[reciever] = duration
     else:
